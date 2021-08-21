@@ -23,7 +23,6 @@ function generatePassword(){
   window.alert('Must input numbers.');
     return false;
   }
-
   
   var character = '';
   var passwordLowercase = window.confirm ("Do you want lowercase in the password?");
@@ -43,9 +42,10 @@ function generatePassword(){
   if (passwordSpecial === true) {
     character = character + special
   }
-  if (passwordLowercase === false && passwordUppercase === false && passwordNumeric === false && passwordSpecial === false) {
-    window.alert ("Please pick at least one characters.")
-  return;
+  else {
+    (passwordLowercase === false && passwordUppercase === false && passwordNumeric === false && passwordSpecial === false) 
+    window.alert ("Must pick at least one character.")
+    return;
   }
 
   var password = '';

@@ -2,9 +2,8 @@
 
 ## My Task
 
-Applied what I learned and
-
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+Applied what I learned from week3, like var, if statement, window.alert/confirm, for-loop, Math.floor, Math.random, etc.
+Added others like charAt, isNaN() and parseInt().
 
 ## User Story
 
