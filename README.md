@@ -40,6 +40,8 @@ _Added additional Acceptance Criteria_
 ```
 WHEN I did not input numbers but other characters for the password length question.
 THEN prompted a messgae to remind me of inputing numbers
+WHEN I clicked cancel button in the password length question
+THEN it brought me back to the original page without showing anyting prompts
 ```
 
 ![index.html screenshot](./screenshot.png)

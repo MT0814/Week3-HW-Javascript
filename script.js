@@ -13,16 +13,22 @@ function writePassword() {
   
 }
 function generatePassword(){
-  var passwordlength = window.prompt ("What is the length for the password? (must between 8 to 128)")
+
+  var passwordlength = window.prompt ("What is the length for the password? (must between 8 to 128)");
+  if (passwordlength === null) {
+    return;
+  }
   if (passwordlength < 8 || passwordlength > 128) {
     window.alert ('The length must be between 8 and 128.')
-  return;
+    return;
   }
+
   if (isNaN(parseInt(passwordlength)))
   {
   window.alert('Must input numbers.');
     return false;
   }
+
   
   var character = '';
   var passwordLowercase = window.confirm ("Do you want lowercase in the password?");
