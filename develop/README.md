@@ -35,6 +35,13 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Others
 
+_Added additional Acceptance Criteria_
+
+```
+WHEN I did not input numbers but other characters for the password length question.
+THEN prompted a messgae to remind me of inputing numbers
+```
+
 ![index.html screenshot](./screenshot.png)
 
 [Click me for website](https://mt0814.github.io/Week3-HW-Javascript/)

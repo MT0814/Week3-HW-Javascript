@@ -42,8 +42,7 @@ function generatePassword(){
   if (passwordSpecial === true) {
     character = character + special
   }
-  else {
-    (passwordLowercase === false && passwordUppercase === false && passwordNumeric === false && passwordSpecial === false) 
+  if (passwordLowercase === false && passwordUppercase === false && passwordNumeric === false && passwordSpecial === false) { 
     window.alert ("Must pick at least one character.")
     return;
   }
